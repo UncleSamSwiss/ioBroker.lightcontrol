@@ -1,0 +1,127 @@
+{
+	"common": {
+		"name": "lightcontrol",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "LightControl",
+		"titleLang": {
+			"en": "LightControl",
+			"de": "Lichtsteuerung",
+			"ru": "Управление освещением",
+			"pt": "Controle de luz",
+			"nl": "Lichtbesturing",
+			"fr": "Contrôle de la lumière",
+			"it": "Controllo della luce",
+			"es": "Control de luz",
+			"pl": "Sterowanie oświetleniem",
+			"zh-cn": "灯光控制"
+		},
+		"desc": {
+			"en": "Light control of lamps from various manufacturers",
+			"de": "Lichtsteuerung von Lampen verschiedener Hersteller",
+			"ru": "Управление светом светильников различных производителей",
+			"pt": "Controle de luz de lâmpadas de vários fabricantes",
+			"nl": "Lichtregeling van lampen van diverse fabrikanten",
+			"fr": "Contrôle de la lumière des lampes de différents fabricants",
+			"it": "Controllo della luce di lampade di vari produttori",
+			"es": "Control de luz de lámparas de varios fabricantes.",
+			"pl": "Sterowanie oświetleniem lamp różnych producentów",
+			"zh-cn": "不同厂家灯具的光控"
+		},
+		"authors": [
+			"Schmakus <schmakus@gmail.com>"
+		],
+		"keywords": [
+			"lightcontrol",
+			"light",
+			"lights",
+			"lamps",
+			"motiondetection",
+			"motion"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "lightcontrol.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/Schmakus/ioBroker.lightcontrol/main/admin/lightcontrol.png",
+		"readme": "https://github.com/Schmakus/ioBroker.lightcontrol/blob/main/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "lighting",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "poll",
+		"materialize": true,
+		"materializeTab": true,
+		"adminTab": {
+			"singleton": true,
+			"name": {
+				"en": "LightControl",
+				"de": "Lichtsteuerung",
+				"ru": "Управление освещением",
+				"pt": "Controle de luz",
+				"nl": "Lichtbesturing",
+				"fr": "Contrôle de la lumière",
+				"it": "Controllo della luce",
+				"es": "Control de luz",
+				"pl": "Sterowanie oświetleniem",
+				"zh-cn": "灯光控制"
+			},
+			"link": "",
+			"fa-icon": "info"
+		},
+		"supportCustoms": true,
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			}
+		]
+	},
+	"native": {
+		"LuxSensor": "",
+		"IsPresenceDp": "",
+		"PresenceCountDp": "",
+		"RampSteps": "10",
+		"minCt": "2700",
+		"maxCt": "6500",
+		"minBri": "10"
+	},
+	"objects": [],
+	"instanceObjects": [
+		{
+			"_id": "info",
+			"type": "channel",
+			"common": {
+				"name": "Information"
+			},
+			"native": {}
+		},
+		{
+			"_id": "info.connection",
+			"type": "state",
+			"common": {
+				"role": "indicator.connected",
+				"name": "Device or service connected",
+				"type": "boolean",
+				"read": true,
+				"write": false,
+				"def": false
+			},
+			"native": {}
+		}
+	]
+}

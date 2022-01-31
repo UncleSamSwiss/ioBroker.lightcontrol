@@ -1,0 +1,95 @@
+{
+	"expert": "yes",
+	"cli": false,
+	"adapterName": "lightcontrol",
+	"title": "LightControl",
+	"description": "Light control of lamps from various manufacturers",
+	"keywords": [
+		"lightcontrol",
+		"light",
+		"lights",
+		"lamps",
+		"motiondetection",
+		"motion"
+	],
+	"contributors": "",
+	"icon": {
+		"data": "data:image/png;base64,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",
+		"extension": "png"
+	},
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [
+		"custom",
+		"tab"
+	],
+	"type": "lighting",
+	"startMode": "daemon",
+	"connectionType": "local",
+	"dataSource": "poll",
+	"connectionIndicator": "yes",
+	"adapterSettings": [
+		{
+			"key": "LuxSensor",
+			"label": "Lux Sensor",
+			"inputType": "text",
+			"defaultValue": ""
+		},
+		{
+			"key": "IsPresenceDp",
+			"label": "Object for presence",
+			"inputType": "text",
+			"defaultValue": ""
+		},
+		{
+			"key": "PresenceCountDp",
+			"label": "Object for presence counter",
+			"inputType": "text",
+			"defaultValue": ""
+		},
+		{
+			"key": "RampSteps",
+			"label": "Ramp steps for dimming",
+			"inputType": "number",
+			"defaultValue": "10"
+		},
+		{
+			"key": "minCt",
+			"label": "Colortemperature minimum",
+			"inputType": "number",
+			"defaultValue": "2700"
+		},
+		{
+			"key": "maxCt",
+			"label": "Colortemperature maximum",
+			"inputType": "number",
+			"defaultValue": "6500"
+		},
+		{
+			"key": "minBri",
+			"label": "Brightness minimum for Adaptive Brightness",
+			"inputType": "number",
+			"defaultValue": "10"
+		}
+	],
+	"language": "JavaScript",
+	"adminReact": "no",
+	"tabReact": "no",
+	"releaseScript": "yes",
+	"indentation": "Tab",
+	"quotes": "double",
+	"es6class": "yes",
+	"tools": [
+		"ESLint",
+		"type checking"
+	],
+	"authorName": "Schmakus",
+	"authorGithub": "Schmakus",
+	"authorEmail": "schmakus@gmail.com",
+	"gitRemoteProtocol": "HTTPS",
+	"license": "MIT License",
+	"dependabot": "yes",
+	"target": "github",
+	"creatorVersion": "2.0.1"
+}
