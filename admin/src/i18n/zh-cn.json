@@ -1,0 +1,10 @@
+{
+	"lightcontrol adapter settings": "lightcontrol的适配器设置",
+	"LuxSensor": "照度传感器",
+	"IsPresenceDp": "存在的对象",
+	"PresenceCountDp": "存在计数器的对象",
+	"RampSteps": "用于调光的斜坡步骤",
+	"minCt": "最低色温",
+	"maxCt": "色温最大值",
+	"minBri": "自适应亮度的最低亮度"
+}

@@ -1,0 +1,10 @@
+{
+	"lightcontrol adapter settings": "Adapterinstellingen voor lightcontrol",
+	"LuxSensor": "Lux-sensor",
+	"IsPresenceDp": "Object voor aanwezigheid",
+	"PresenceCountDp": "Object voor aanwezigheidsteller",
+	"RampSteps": "Hellingstappen voor dimmen",
+	"minCt": "Minimaal kleurtemperatuur",
+	"maxCt": "Kleurtemperatuur maximum",
+	"minBri": "Minimale helderheid voor adaptieve helderheid"
+}

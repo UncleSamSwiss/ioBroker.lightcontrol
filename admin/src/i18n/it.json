@@ -1,0 +1,10 @@
+{
+	"lightcontrol adapter settings": "Impostazioni dell'adattatore per lightcontrol",
+	"LuxSensor": "Sensore Lux",
+	"IsPresenceDp": "Oggetto per presenza",
+	"PresenceCountDp": "Oggetto per contatore presenze",
+	"RampSteps": "Gradini di rampa per l'oscuramento",
+	"minCt": "Temperatura colore minima",
+	"maxCt": "Temperatura colore massima",
+	"minBri": "Luminosità minima per Luminosità adattiva"
+}

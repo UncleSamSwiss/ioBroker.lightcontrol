@@ -36,6 +36,8 @@ check them out. If you're already experienced, you should also take a look at th
 Several npm scripts are predefined for your convenience. You can run them using `npm run <scriptname>`
 | Script name | Description |
 |-------------|-------------|
+| `build:parcel` | Compile the React sources. |
+| `watch:parcel` | Compile the React sources and watch for changes. |
 | `test:js` | Executes the tests you defined in `*.test.js` files. |
 | `test:package` | Ensures your `package.json` and `io-package.json` are valid. |
 | `test:unit` | Tests the adapter startup with unit tests (fast, but might require module mocks to work). |

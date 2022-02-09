@@ -1,0 +1,10 @@
+{
+	"lightcontrol adapter settings": "Adapter settings for lightcontrol",
+	"LuxSensor": "Lux Sensor",
+	"IsPresenceDp": "Object for presence",
+	"PresenceCountDp": "Object for presence counter",
+	"RampSteps": "Ramp steps for dimming",
+	"minCt": "Colortemperature minimum",
+	"maxCt": "Colortemperature maximum",
+	"minBri": "Brightness minimum for Adaptive Brightness"
+}

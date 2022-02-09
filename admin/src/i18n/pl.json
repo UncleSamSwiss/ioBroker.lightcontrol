@@ -1,0 +1,10 @@
+{
+	"lightcontrol adapter settings": "Ustawienia adaptera dla lightcontrol",
+	"LuxSensor": "Czujnik luksów",
+	"IsPresenceDp": "Obiekt dla obecności",
+	"PresenceCountDp": "Obiekt licznika obecności",
+	"RampSteps": "Stopnie rampy do ściemniania",
+	"minCt": "Minimalna temperatura barwowa",
+	"maxCt": "Maksymalna temperatura barwowa",
+	"minBri": "Minimalna jasność dla jasności adaptacyjnej"
+}
